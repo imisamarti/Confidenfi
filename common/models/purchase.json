@@ -1,0 +1,35 @@
+{
+  "name": "Purchase",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "item": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "purchasePrice": {
+      "type": "number",
+      "required": true
+    },
+    "shippingCost": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
