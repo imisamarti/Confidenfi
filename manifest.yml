@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> dc117cc23e33c0572cf763b8e6a455c84e5f8966
 applications:
 - name: <Confidenfi>
   host: <application-name>
   memory: 1024M
   path: .
   instances: 1
+<<<<<<< HEAD
   domain: mybluemix.net
+=======
+  domain: mybluemix.net
+>>>>>>> dc117cc23e33c0572cf763b8e6a455c84e5f8966
