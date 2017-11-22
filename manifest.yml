@@ -1,7 +1,7 @@
 
 applications:
 - name: <Confidenfi>
-  host: <isadoramartinez>-confidenfi
+  host: confidenfi
   memory: 1024M
   path: .
   instances: 1
