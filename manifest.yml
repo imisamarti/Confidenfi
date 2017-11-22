@@ -2,7 +2,7 @@
 applications:
 - name: <Confidenfi>
   host: confidenfi
-  memory: 1024M
+  memory: 500M
   path: .
   instances: 1
   domain: mybluemix.net
